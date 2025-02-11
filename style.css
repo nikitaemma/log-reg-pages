@@ -1,0 +1,169 @@
+body {
+    background-color: #1F1D20;
+    color: #A79986;
+    text-align: center;
+}
+
+.container {
+    margin: 50px auto;
+    width: 300px;
+    padding: 30px;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#username,
+#password,
+#email,
+#confirmPassword {
+    width: 300px;
+    font-size: 14px;
+    color: white;
+    padding: 10px;
+    display: block;
+    margin: 20px 20px 20px 20px;
+    border: 1px solid #A79986;
+    border-radius: 15px;
+    justify-content: center;
+    background-color: rgb(13, 13, 18);
+}
+
+#username:hover,
+#email:hover,
+#password:hover,
+#confirmPassword:hover {
+    border: 1.5px solid rgb(73, 43, 43);
+}
+
+
+h1 {
+    margin-top: auto;
+    padding-bottom: auto;
+}
+
+#termslink {
+    color: #A79986;
+}
+
+.custom-checkbox {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    color: #A79986;
+}
+
+.custom-checkbox input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+    position: absolute;
+}
+
+.custom-checkbox .checkmark {
+    width: 16px;
+    height: 16px;
+    border: 2px solid #A79986;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    transition: background 0.2s ease, border 0.2s ease;
+}
+
+.custom-checkbox input:checked+.checkmark {
+    background-color: #4B2427;
+    border-color: #4B2427;
+}
+
+.custom-checkbox input:checked+.checkmark::after {
+    content: "";
+    width: 5px;
+    height: 9px;
+    border: solid #A79986;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+    position: relative;
+    left: 0px;
+    top: -1px;
+}
+
+#login,
+#register {
+    border: none;
+    font-size: 16px;
+    border-radius: 15px;
+    background-color: #4B2427;
+    padding: 10px;
+    margin: 20px 20px 20px 20px;
+    width: 100%;
+    max-width: 300px;
+    color: white;
+    display: block;
+    cursor: pointer;
+
+}
+
+#login:hover {
+    background-color: #5e2f33;
+}
+
+#register:hover {
+    background-color: #5e2f33;
+}
+
+.footer {
+    margin-top: 150px;
+}
+
+.footerReg {
+    margin-top: 10px;
+}
+
+.bottom {
+    margin: 10px;
+}
+
+.or {
+    margin: 10px;
+}
+
+#signup,
+#logbottom {
+    color: #803E2E;
+}
+
+#google,
+#facebook,
+#instagram,
+#twitter,
+#forgotPassword {
+    font-size: 17px;
+    text-decoration: none;
+    color: #A79986;
+    margin: 10px auto;
+    padding: 5px;
+}
+
+#forgotPassword {
+    margin-left: 20px;
+    color: #803E2E;
+}
+
+#regbutton,
+#logbutton {
+    text-decoration: none;
+    color: #A79986;
+}
+
+#welcome {
+    color: #A79986;
+    font-size: 40px;
+    margin: 50px auto;
+    text-align: center;
+}
