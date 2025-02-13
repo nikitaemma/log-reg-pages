@@ -7,12 +7,13 @@
     <title>register-page</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-
 </head>
 
 <body>
     <div class="container">
         <h1>Register</h1>
+
+        <!-- Поля ввода -->
         <input type="text" id="username" placeholder="Username">
         <input type="email" id="email" placeholder="Email">
         <input type="password" id="password" placeholder="Password">
@@ -20,12 +21,13 @@
 
         <label class="custom-checkbox">
             <input type="checkbox" id="terms">
-            <span class="checkmark"></span> I agree to the<a href="#" id="termslink">terms and conditions</a>
+            <span class="checkmark"></span> I agree to the <a href="#" id="termslink">terms and conditions</a>
         </label>
-        <button id="register"><a href="#" id="regbutton">Register</a></button>
 
-
+        <!-- Кнопка без <form> -->
+        <button id="register">Register</button>
     </div>
+
     <div class="footerReg">
         <p class="or">Or Register with</p>
         <a href="#" id="google"><i class="fab fa-google"></i> Google</a>
@@ -40,6 +42,7 @@
         </p>
     </div>
 
+    <script src="script.js"></script>
 </body>
 
 </html>
