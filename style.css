@@ -162,8 +162,12 @@ h1 {
 }
 
 #welcome {
-    color: #A79986;
+    color: #;
     font-size: 40px;
     margin: 50px auto;
     text-align: center;
+}
+
+input {
+    color: #A79986;
 }
